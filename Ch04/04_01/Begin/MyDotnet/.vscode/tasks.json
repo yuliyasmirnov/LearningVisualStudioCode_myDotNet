@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceRoot}/project.json"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}
